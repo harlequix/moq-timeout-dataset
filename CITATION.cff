@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "MoQ Timeout Experiment Data: RESET_AT vs RESET_STREAM"
+message: "If you use this dataset, please cite it using the metadata from this file."
+type: dataset
+authors:
+  - given-names: Sebastian
+    family-names: Rust
+    orcid: https://orcid.org/0000-0001-6812-5895
+license: CC0-1.0
+# doi: TODO (will be assigned by Zenodo)
+# date-released: TODO

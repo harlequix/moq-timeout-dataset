@@ -1,0 +1,10 @@
+[project]
+name = "data"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "datalad>=1.4.1",
+    "numpy>=2.4.4",
+    "scipy>=1.17.1",
+]
