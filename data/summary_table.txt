@@ -1,0 +1,113 @@
+=== Delivery Summary (averaged across runs) ===
+
+CONDITION    STRATEGY                TMO RUNS |   PUB PUB_I PUB_P |  RECV RCV_I RCV_P | RESET  DROP |  RATIO
+------------ -------------------- ------------+-------------------+-------------------+-------------+-------
+baseline     none                      -   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-at-keyframe    1000ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-at-keyframe     100ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-at-keyframe     200ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-at-keyframe     500ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-at-object      1000ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-at-object       100ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-at-object       200ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-at-object       500ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-stream         1000ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-stream          100ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-stream          200ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+baseline     reset-stream          500ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+congested    none                      -   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+congested    reset-at-keyframe    1000ms   10 |   900    32   868 |   647    32   615 |   9.0   253 |  0.719
+congested    reset-at-keyframe     100ms   10 |   900    32   868 |   482    32   450 |  16.0   418 |  0.535
+congested    reset-at-keyframe     200ms   10 |   900    32   868 |   542    32   510 |  14.0   357 |  0.602
+congested    reset-at-keyframe     500ms   10 |   900    32   868 |   620    32   588 |  10.9   280 |  0.689
+congested    reset-at-object      1000ms   10 |   900    32   868 |   647    32   615 |   9.0   253 |  0.719
+congested    reset-at-object       100ms   10 |   900    32   868 |   485    32   453 |  16.0   415 |  0.539
+congested    reset-at-object       200ms   10 |   900    32   868 |   543    32   511 |  14.0   357 |  0.603
+congested    reset-at-object       500ms   10 |   900    32   868 |   620    32   588 |  10.9   280 |  0.689
+congested    reset-stream         1000ms   10 |   900    32   868 |   644    29   615 |   9.0   253 |  0.715
+congested    reset-stream          100ms   10 |   900    32   868 |   469    20   449 |  16.0   418 |  0.521
+congested    reset-stream          200ms   10 |   900    32   868 |   530    20   510 |  14.0   357 |  0.589
+congested    reset-stream          500ms   10 |   900    32   868 |   616    28   588 |  10.9   280 |  0.685
+lossy        none                      -   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+lossy        reset-at-keyframe    1000ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+lossy        reset-at-keyframe     100ms   10 |   900    32   868 |   560    32   528 |  12.3   334 |  0.622
+lossy        reset-at-keyframe     200ms   10 |   900    32   868 |   780    32   748 |   4.2   117 |  0.866
+lossy        reset-at-keyframe     500ms   10 |   900    32   868 |   897    32   865 |   0.0     0 |  0.997
+lossy        reset-at-object      1000ms   10 |   900    32   868 |   897    32   865 |   0.0     0 |  0.997
+lossy        reset-at-object       100ms   10 |   900    32   868 |   550    32   518 |  12.8   350 |  0.611
+lossy        reset-at-object       200ms   10 |   900    32   868 |   812    32   780 |   3.2    88 |  0.902
+lossy        reset-at-object       500ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+lossy        reset-stream         1000ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+lossy        reset-stream          100ms   10 |   900    32   868 |   550    24   526 |  12.5   342 |  0.612
+lossy        reset-stream          200ms   10 |   900    32   868 |   778    29   749 |   4.3   119 |  0.865
+lossy        reset-stream          500ms   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+severe       none                      -   10 |   900    32   868 |   900    32   868 |   0.0     0 |  1.000
+severe       reset-at-keyframe    1000ms   10 |   900    32   868 |   624    32   592 |  11.2   275 |  0.693
+severe       reset-at-keyframe     100ms   10 |   900    32   868 |   330    32   298 |  20.5   570 |  0.366
+severe       reset-at-keyframe     200ms   10 |   900    32   868 |   462    32   430 |  16.0   438 |  0.514
+severe       reset-at-keyframe     500ms   10 |   900    32   868 |   569    32   537 |  12.6   331 |  0.632
+severe       reset-at-object      1000ms   10 |   900    32   868 |   624    32   592 |  11.4   276 |  0.693
+severe       reset-at-object       100ms   10 |   900    32   868 |   310    32   278 |  21.1   590 |  0.344
+severe       reset-at-object       200ms   10 |   900    32   868 |   472    32   440 |  15.6   428 |  0.524
+severe       reset-at-object       500ms   10 |   900    32   868 |   575    32   543 |  12.7   325 |  0.639
+severe       reset-stream         1000ms   10 |   900    32   868 |   622    29   593 |  11.0   274 |  0.691
+severe       reset-stream          100ms   10 |   900    32   868 |   308    22   286 |  20.9   582 |  0.343
+severe       reset-stream          200ms   10 |   900    32   868 |   468    25   442 |  15.5   425 |  0.519
+severe       reset-stream          500ms   10 |   900    32   868 |   566    27   540 |  12.6   329 |  0.629
+
+=== I-frame Latency Summary (ms) ===
+
+CONDITION    STRATEGY                TMO COUNT     AVG     P50     P95     MAX
+------------ -------------------- ------ ----- ------- ------- ------- -------
+baseline     none                      -   320      62      58      74      75
+baseline     reset-at-keyframe    1000ms   320      62      60      74      75
+baseline     reset-at-keyframe     100ms   320      62      59      74      75
+baseline     reset-at-keyframe     200ms   320      62      58      74      75
+baseline     reset-at-keyframe     500ms   320      62      58      73      75
+baseline     reset-at-object      1000ms   320      62      59      74      75
+baseline     reset-at-object       100ms   320      62      58      74      75
+baseline     reset-at-object       200ms   320      62      58      74      75
+baseline     reset-at-object       500ms   320      62      59      74      75
+baseline     reset-stream         1000ms   320      62      58      73      75
+baseline     reset-stream          100ms   320      62      59      74      74
+baseline     reset-stream          200ms   320      62      58      74      81
+baseline     reset-stream          500ms   320      62      58      74      75
+congested    none                      -   320    5032    4576   10569   10826
+congested    reset-at-keyframe    1000ms   320     970     884    2177    2222
+congested    reset-at-keyframe     100ms   320     495     371     952     984
+congested    reset-at-keyframe     200ms   320     529     371    1023    1360
+congested    reset-at-keyframe     500ms   320     745     562    1687    1851
+congested    reset-at-object      1000ms   320     972     893    2177    2262
+congested    reset-at-object       100ms   320     497     371     952     984
+congested    reset-at-object       200ms   320     530     371    1032    1369
+congested    reset-at-object       500ms   320     744     558    1688    1851
+congested    reset-stream         1000ms   287     850     628    2099    2259
+congested    reset-stream          100ms   196     331     252     928     946
+congested    reset-stream          200ms   202     308     311     892     940
+congested    reset-stream          500ms   285     653     371    1646    1839
+lossy        none                      -   320     174     152     354     571
+lossy        reset-at-keyframe    1000ms   320     173     152     353     561
+lossy        reset-at-keyframe     100ms   318     163     151     308     458
+lossy        reset-at-keyframe     200ms   319     173     152     330     487
+lossy        reset-at-keyframe     500ms   319     169     152     352     456
+lossy        reset-at-object      1000ms   319     172     152     310     716
+lossy        reset-at-object       100ms   320     167     152     308     531
+lossy        reset-at-object       200ms   320     166     151     312     462
+lossy        reset-at-object       500ms   320     172     152     336     467
+lossy        reset-stream         1000ms   320     168     152     315     437
+lossy        reset-stream          100ms   243     135     110     272     505
+lossy        reset-stream          200ms   294     159     151     303     502
+lossy        reset-stream          500ms   320     173     152     329     531
+severe       none                      -   320    5039    4634   10607   11081
+severe       reset-at-keyframe    1000ms   319     814     666    1827    2068
+severe       reset-at-keyframe     100ms   320     473     411     931    1156
+severe       reset-at-keyframe     200ms   320     472     416     931    1194
+severe       reset-at-keyframe     500ms   320     540     409    1153    1448
+severe       reset-at-object      1000ms   320     848     740    1854    2870
+severe       reset-at-object       100ms   316     472     372     942    1124
+severe       reset-at-object       200ms   320     470     396     933    1147
+severe       reset-at-object       500ms   320     562     427    1249    1671
+severe       reset-stream         1000ms   293     739     508    1829    2094
+severe       reset-stream          100ms   219     403     288     920     943
+severe       reset-stream          200ms   250     383     323     914     942
+severe       reset-stream          500ms   268     454     354    1103    1290
