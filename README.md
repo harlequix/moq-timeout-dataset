@@ -1,6 +1,10 @@
 # MoQ Timeout Experiment Data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20761155.svg)](https://doi.org/10.5281/zenodo.20761155)
+
 Experiment data for evaluating RESET_AT vs RESET_STREAM timeout strategies in Media over QUIC (MoQ) live video streaming.
+
+A citable snapshot is archived on Zenodo at [10.5281/zenodo.20761155](https://doi.org/10.5281/zenodo.20761155) (concept DOI [10.5281/zenodo.20761154](https://doi.org/10.5281/zenodo.20761154) always resolves to the latest version).
 
 ## Structure
 
@@ -26,7 +30,7 @@ matrix.json               # Experiment parameters
 
 ```bash
 # Clone (summary CSVs are available immediately)
-datalad clone <url>
+datalad clone https://github.com/harlequix/moq-timeout-dataset.git
 
 # Regenerate summary CSVs from raw data
 datalad get data/       # Fetch annexed raw data (~43 MB)
@@ -49,7 +53,10 @@ All summary files were generated via `datalad run` and can be reproduced with `m
 
 ## Experiment Runner
 
-<!-- TODO: Add link to experiment runner repository -->
+These runs were produced by
+[moq-timeout-experiments](https://github.com/harlequix/moq-timeout-experiments),
+which drives the publisher, relay, and subscriber from
+[moq-streaming](https://github.com/harlequix/moq-streaming).
 
 ## License
 

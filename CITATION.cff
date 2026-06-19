@@ -7,5 +7,5 @@ authors:
     family-names: Rust
     orcid: https://orcid.org/0000-0001-6812-5895
 license: CC0-1.0
-# doi: TODO (will be assigned by Zenodo)
-# date-released: TODO
+doi: 10.5281/zenodo.20761155
+date-released: 2026-06-19
